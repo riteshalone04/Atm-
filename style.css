@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://i.imgur.com/8QfQpZR.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    width: 340px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.holder {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+input {
+    width: 92%;
+    padding: 9px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background: #003A8F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #002c6e;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
