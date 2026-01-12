@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="atm">
+    <img src="sbi-logo.png" alt="SBI Logo" class="logo">
+
+    <p class="holder"><b>Account Holder:</b> Ritesh Alone</p>
+
+    <label>Enter PIN</label>
+    <input type="password" id="pin" placeholder="****">
+    <button onclick="login()">Login</button>
+
+    <div id="atmMenu" class="hidden">
+        <label>Enter Saving Amount</label>
+        <input type="number" id="saving" placeholder="Enter amount">
+        <button onclick="calculate()">Check Balance</button>
+
+        <p id="result"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
